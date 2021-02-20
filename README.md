@@ -271,7 +271,3 @@ while true do
 ---py=0xFB4694
 ---setvalue(so+py,4,0)
 ---gg.toast("AIMBOT SUPER 360° ACTIVED ✓")
-
-
-
-
