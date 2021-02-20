@@ -195,6 +195,11 @@ gg.editAll("380", gg.TYPE_FLOAT)
 end
 
 function oneklik() ---OneClick AimBot & Headshot
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.toast("done")
 loadfile("/storage/emulated/0/.pubg/HEADSHOT-MAGIC.lua")()
 so=gg.getRangesList('libUE4.so')[1].start 
 py=0x258B880 
@@ -206,11 +211,21 @@ gg.alert("Done")
 end
 
 function libbased() ---Lib Based
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.toast("done")
 loadfile("/storage/emulated/0/.pubg/PUBG UNKNOWN 1.2.0.lua")()
 end
 
 
 function LRC() --- OneClick LessRecoil+Small Crosshair
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.toast("done")
 so=gg.getRangesList('libUE4.so')[1].start
 py=0x1C113E8
 setvalue(so+py,16,1.40129846e-45)
