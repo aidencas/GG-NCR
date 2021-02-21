@@ -142,6 +142,10 @@ gg.alert("Done")
 end
 
 function ch13() ---Magic Bullet & Headshot China
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 loadfile("/storage/emulated/0/.pubg/HEADSHOT-MAGIC.lua")()
 gg.alert("Done")
 end
