@@ -23,6 +23,7 @@ multi = gg.multiChoice({
 "OneClick \nHS+AimBot",
 "Lib Based \nAll Hack",
 "OneClick \nLessRecoil+Crosshair",
+"AimBot \nChina Private",
 
 },nil,'Simple Shortcut Script Hehe \nboii')
 
@@ -47,7 +48,8 @@ if multi[17] == true then AIM360() end
 if multi[18] == true then test() end
 if multi[19] == true then oneklik() end
 if multi[20] == true then libbased() end
-if multi[21] == true then LRC()
+if multi[21] == true then LRC() end
+if multi[22] == true then chinabot()
 
 end
 end
@@ -238,6 +240,15 @@ setvalue(so + py, 4, 0)
 gg.alert("Done")
 end
 
+function chinabot() ---China Aimbot
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+loadfile("/storage/emulated/0/.pubg/这个txt文件没人能破解吧.lua")()
+gg.toast("done")
+end
+
 while true do 
   if gg.isVisible(false) then 
    HOMEDM = 1
@@ -271,3 +282,7 @@ while true do
 ---py=0xFB4694
 ---setvalue(so+py,4,0)
 ---gg.toast("AIMBOT SUPER 360° ACTIVED ✓")
+
+
+
+
